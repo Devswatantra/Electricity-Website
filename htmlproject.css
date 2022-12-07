@@ -1,0 +1,246 @@
+.backgroundimage{
+    background-image: url(" https://images.unsplash.com/photo-1518181835702-6eef8b4b2113?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    height: 200vh;
+}
+.navbar{
+height: 80px;
+width: 100%;
+background: rgba(0,0,0,0.4);
+
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: "Roboto" , sans-serif;
+    transition: 4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:blue;
+    border-radius: 2px;
+}
+
+.logo{
+    height: 40px;
+    width: 20%;
+    
+}
+.heading{
+    font-weight: bold;
+    color: burlywood;
+    font-size: 20px;
+}
+.container{
+    background-color: white;
+    height: 30vh;
+    width: 50vh;
+    border-radius: 8px;
+    margin-top: 12px;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+
+
+}
+.container h1 
+{
+    text-align: center;
+    color: blue;
+    font-size: 22px;
+    font-family: "caveat";
+}
+.g2{
+    
+    margin-right: 1100px;
+}
+.i2{
+    height: 10vh;
+    width:14vw;
+
+}
+.form2{
+font-weight: bold;
+width: 90%;
+position: relative;
+margin: 20px auto;
+}
+.form2 i{
+position: relative;
+font-size: 18px;
+color: blue;
+}
+.form2 {
+    /* background-color: aqua; */
+}
+.myname{
+    border: 1px solid #cccccc;
+    outline:none;
+}
+.box1 a
+{
+    background-color: aliceblue;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.m1{
+    margin-right: 1000px;
+}
+.box1{
+    background-color: #cccccc;
+    height: 40vh;
+    width: 20vw;
+    border-radius: 8px;
+    margin-top: 12px;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+    margin-left: 65px;
+
+}
+.box2{
+    background-color: #cccccc;
+    height: 40vh;
+    width: 20vw;
+    border-radius: 8px;
+    margin-top: 12px;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+    margin-left: 728px;
+}
+.box1 h1 
+{
+    text-align: center;
+    color: blue;
+    font-size: 22px;
+    font-family: "caveat";
+    font-weight: bold;
+}
+.box2 h1{
+text-align: center;
+font-size: 19px;
+font-family:"roboto";
+color: cornflowerblue;
+font-weight: bold;
+
+}
+.box2 ol{
+    font-weight:bold ;
+}
+.container22{
+    background-color: rgb(51, 50, 50);
+    height: 40vh;
+    width: 40vw;
+    border-radius: 8px;
+    margin-top: 12px;
+    border-top: 5px solid rgb(6, 109, 47);
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+
+
+}
+.container22 p{
+color: aqua;
+margin: 5px;
+box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+border-style: groove;
+border-color: black;
+
+}
+.container22 h1{
+    font-size: 26px;
+    text-align: center;
+    font-family: "capitals";
+    color: #ffffff;
+}
+.container22 ul li{
+    color: aqua;
+    margin-top: 13px;
+    font-family: "occidental";
+}
+.container li{
+    font-size: 18px;
+    font-family: "bree serif";
+    padding: 5px;
+}
+.contactbg{
+    background-image: url('https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    height: 100vh;
+    background-size:cover;
+}
+.headingcontact{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-family: "bazooka";
+    font-weight: bold;
+}
+.headingcontact p{
+    font-size: 18px;
+}
+.icon{
+  padding: 20px;
+  padding-top: 100px;
+}
+.iconaddress{
+    padding: 0px;
+    padding-top: 100px;
+    font-weight: bold;
+    font-family: "roboto";
+    font-size: 28px;
+    color:orange ;
+}
+.iconp{
+    padding: 0px;
+    font-weight: bold;
+    font-family: "roboto";
+    color:white ;
+}
+.icon2{
+    padding: 15px;
+    padding-left: 30px;
+}
+.icon2a{
+    color: orange;
+    padding: 0px;
+    font-weight: bold;
+    font-family: "roboto";
+    font-size: 28px;
+   
+}
+.icon2p{
+    color: white;
+    padding: 0px;
+    font-weight: bold;
+    font-family: "roboto";
+}
+.contactbody{
+    background-color:white;
+    height: 40vh;
+    width: 20vw;
+    border-radius: 8px;
+    float:"right";
+
+}
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    font-size:medium;
+    padding-top: 30px;
+  }
+.footer1{
+    padding: 30px;
+    
+}
